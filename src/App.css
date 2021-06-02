@@ -1,0 +1,75 @@
+body {
+  background-color: lightgray;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+table {
+  border-spacing: 5px;
+  margin:20px
+}
+
+form {
+  text-align: center;
+  padding: 5px;
+}
+
+input {
+  border: solid 5;
+  color: black;
+  padding: 8px 16px;
+  margin: 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+input,
+select,
+textarea {
+  color: black;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  background-color: darkblue;
+  color: white;
+}
+
+header > p {
+  text-align: center;
+  margin: 5px;
+  font-size: 20px;
+  background-color: darkblue;
+  color: white;
+  border-bottom: solid red 5px;
+  padding-bottom: 40px;
+}
+
+input {
+  border: solid 1px gray;
+}
+
+button {
+  display: inline;
+  border: 0px;
+  background-color: blue;
+  padding: 2px;
+  color: whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px;
+  
+}
