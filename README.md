@@ -40,12 +40,12 @@
   There are no tests included
 
   ## Deployed Site
-  You can visit the site using <a href="https://iigonzoii.github.io/EmployeeDirectory/">GitHub Pages</a>
+  You can visit the site using <a href="https://trae77.github.io/userdirectory/">GitHub Pages</a>
 
   ## Questions
   Find me on Github or reach out via email
 
-  You can find me on GitHub at [iigonzoii](https://github.com/iigonzoii)
+  You can find me on GitHub at [trae77](https://github.com/trae77)
 
-  Email me if you run into any questions at a.gonzalez418@gmail.com
+  Email me if you run into any questions at soccerreferee7@gmail.com
  
