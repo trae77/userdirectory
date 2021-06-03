@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import React from "react";
-import EmployeeTable from "./components/EmployeeTable";
+import Employees from "./components/Employees";
 import SearchForm from "./components/SearchForm";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       });
   }, []);
 
-  const sortByName = () => {
+  const sortName = () => {
     let sortArray = employeesArray.sort((a, b) => {
       return a.name.first > b.name.first ? 1 : -1;
     });
@@ -28,7 +28,7 @@ function App() {
     e.preventDefault();
   };
 
-  const handleNameSearch = (e) => {
+  const handleSearch = (e) => {
     //  here we filter through employee array and we use include to go through each employees name and return only employees who match users input
     let smallerArray = employeesArray.filter((each) => {
       return (
@@ -47,11 +47,11 @@ function App() {
       </header>
       <SearchForm
         handleSubmit={handleSubmit}
-        handleNameSearch={handleNameSearch}
+        handleSearch={handleSearch}
       />
-      <EmployeeTable
-        sortByName={sortByName}
-        employeeArrayFiltered={employeesArrayFiltered}
+      <Employees
+        sortName={sortName}
+        employeesArrayFiltered={employeesArrayFiltered}
       />
     </>
   );

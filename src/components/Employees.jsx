@@ -1,4 +1,4 @@
-function EmployeeTable(props) {
+function Employees(props) {
     return (
         <>
             <table style={{ width: "100%" }}>
@@ -6,14 +6,14 @@ function EmployeeTable(props) {
                     <tr>
                         <th>Picture</th>
                         <th> First name
-                            <button onClick={props.sortByName}>sort</button>
+                            <button onClick={props.sortName}>sort</button>
                             </th>
                         <th>Last name</th>
                         <th>Email</th>
                         <th>Cell Phone</th>
                     </tr>
                 </thead>
-                {props.employeeArrayFiltered.map((each, index) => {
+                {props.employeesArrayFiltered.map((each, index) => {
                     return (
                         <tbody key={index}>
                             <tr>
@@ -36,4 +36,4 @@ function EmployeeTable(props) {
     );
 }
 
-export default EmployeeTable;
+export default Employees;
