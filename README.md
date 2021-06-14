@@ -40,7 +40,7 @@
   There are no tests included
 
   ## Deployed Site
-  You can visit the site using <a href="https://trae77.github.io/userdirectory/">GitHub Pages</a>
+  You can visit the site using <a href="https://fast-mesa-53375.herokuapp.com/">GitHub Pages</a>
 
   ## Questions
   Find me on Github or reach out via email
